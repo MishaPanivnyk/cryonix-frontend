@@ -10,6 +10,7 @@ import {
 import sprite from '../../img/sprite.svg';
 import { useMediaQuery } from 'react-responsive';
 import { Navigation } from './Navigation/Navigation';
+
 export const Header: React.FC = () => {
   const isDesktop = useMediaQuery({
     query: '(min-width: 768px)',

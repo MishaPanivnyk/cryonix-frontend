@@ -14,8 +14,10 @@ export const HeaderContainer = styled.header`
 
   @media only screen and (min-width: 768px) {
     padding: 12px 15px;
+    top: 15px;
   }
   @media only screen and (min-width: 1024px) {
+    top: 38px;
     padding: 16.5px 15px;
   }
 `;
