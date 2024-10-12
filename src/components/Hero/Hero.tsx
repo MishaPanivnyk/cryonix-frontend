@@ -32,7 +32,7 @@ export const Hero: React.FC = () => {
         <ImageWithOverlay>
           <img src={imageUrl} alt="Hero" />
           <HeroTitle>Exchange books with other readers in your city</HeroTitle>
-          <HeroBtn>Find Books</HeroBtn>
+          <HeroBtn to="/find">Find Books</HeroBtn>
         </ImageWithOverlay>
       </Container>
     </HeroContainer>

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 
 export const HeroContainer = styled.section`
   padding-top: 30px;
@@ -56,20 +57,24 @@ export const HeroTitle = styled.h1`
   line-height: normal;
   text-transform: uppercase;
   position: absolute;
-  top: 32px;
-  left: 32px;
+  top: 16px;
+  left: 20px;
   z-index: 6;
   max-width: 161px;
   @media only screen and (min-width: 768px) {
     max-width: 314px;
     font-size: 28px;
+    top: 32px;
+    left: 32px;
   }
   @media only screen and (min-width: 1024px) {
     max-width: 486px;
     font-size: 43px;
+    top: 40px;
+    left: 40px;
   }
 `;
-export const HeroBtn = styled.button`
+export const HeroBtn = styled(NavLink)`
   cursor: pointer;
   background: inherit;
   border: none;
@@ -88,6 +93,13 @@ export const HeroBtn = styled.button`
   top: 78px;
   left: 16px;
   z-index: 6;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: #720036;
+    color: #fff;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
   @media only screen and (min-width: 768px) {
     top: 146px;
     left: 32px;
