@@ -92,9 +92,9 @@ Error generating stack: `+o.message+`
   padding-left: 10px;
   padding-right: 10px;
   min-width: 320px;
-  @media screen and (max-width: 767px) {
+  /* @media screen and (max-width: 767px) {
     max-width: 320px;
-  }
+  } */
   @media only screen and (min-width: 768px) {
     padding-left: 50px;
     padding-right: 50px;
@@ -683,16 +683,16 @@ to {
   }
 `,ky=R.div`
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
   img {
-    border-radius: 20px;
+    border-radius: 22px;
     width: 100%;
-    height: 171px;
+    /* height: 171px; */
     @media only screen and (min-width: 768px) {
-      height: 307px;
+      /* height: 307px; */
     }
     @media only screen and (min-width: 1440px) {
-      height: 393px;
+      /* height: 393px; */
     }
   }
 
@@ -703,7 +703,7 @@ to {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 5px;
+    bottom: 3px;
     background: linear-gradient(90deg, #121212 4.05%, rgba(0, 0, 0, 0) 99.94%);
     z-index: 1;
     @media only screen and (min-width: 768px) {
@@ -812,6 +812,7 @@ to {
 `,Ny=R.ul`
   display: flex;
   gap: 15px;
+  justify-content: space-between;
   @media only screen and (min-width: 768px) {
   }
   @media only screen and (min-width: 1440px) {
