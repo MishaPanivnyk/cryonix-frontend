@@ -5,7 +5,7 @@ export const WhatBookixContainer = styled.section`
   @media only screen and (min-width: 768px) {
     padding-bottom: 33px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     padding-bottom: 65px;
   }
 `;
@@ -24,7 +24,7 @@ export const WhatBookixTitle = styled.h2`
     letter-spacing: 0.12px;
     margin-bottom: 20px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     margin-bottom: 50px;
     font-size: 60px;
     letter-spacing: 0.18px;
@@ -40,7 +40,7 @@ export const WhatBookixText = styled.p`
   @media only screen and (min-width: 768px) {
     font-size: 20px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     font-size: 38px;
   }
 `;

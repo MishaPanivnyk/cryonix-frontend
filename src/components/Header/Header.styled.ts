@@ -16,7 +16,7 @@ export const HeaderContainer = styled.header`
     padding: 12px 15px;
     top: 15px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     top: 38px;
     padding: 16.5px 15px;
   }
@@ -31,7 +31,7 @@ export const HeaderLogo = styled.span`
   text-transform: uppercase;
   @media only screen and (min-width: 768px) {
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     font-size: 16px;
   }
 `;
@@ -48,7 +48,7 @@ export const HeaderBurgerBtn = styled.button`
   @media only screen and (min-width: 768px) {
     display: none;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
   }
 `;
 export const HeaderNav = styled.nav`
@@ -64,7 +64,7 @@ export const HeaderNav = styled.nav`
   @media only screen and (min-width: 768px) {
     display: none;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
   }
 `;
 export const HeaderBtnAuthContainer = styled.div`
@@ -72,7 +72,7 @@ export const HeaderBtnAuthContainer = styled.div`
   gap: 16px;
   @media only screen and (min-width: 768px) {
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
   }
 `;
 
@@ -100,7 +100,7 @@ export const HeaderBtnAuth = styled.button`
   }
   @media only screen and (min-width: 768px) {
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     font-size: 16px;
     letter-spacing: 0.048px;
   }
@@ -129,7 +129,7 @@ export const HeaderBtnAuthSignUp = styled.button`
   }
   @media only screen and (min-width: 768px) {
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     font-size: 16px;
   }
 `;

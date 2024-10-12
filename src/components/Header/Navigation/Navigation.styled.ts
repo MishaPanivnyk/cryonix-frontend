@@ -18,7 +18,7 @@ export const Link = styled(NavLink)`
     font-size: 14px;
     margin-right: 0px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     font-size: 16px;
   }
   &:hover,

@@ -6,7 +6,7 @@ export const PopularBooksContainer = styled.section`
   @media only screen and (min-width: 768px) {
     padding-bottom: 33px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     padding-bottom: 65px;
   }
 `;
@@ -25,7 +25,7 @@ export const PopularBooksTitle = styled.h2`
     letter-spacing: 0.12px;
     margin-bottom: 20px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     margin-bottom: 50px;
     font-size: 60px;
     letter-spacing: 0.18px;
@@ -37,7 +37,7 @@ export const PopularBooksSwiperContainer = styled.div`
   @media only screen and (min-width: 768px) {
     margin-bottom: 20px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     margin-bottom: 44px;
   }
 `;
@@ -50,7 +50,7 @@ export const PopularBooksSwiperItem = styled.div`
     width: 239px;
     height: 208px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     width: 384px;
     height: 289px;
   }
@@ -78,7 +78,7 @@ export const CustomPrevButton = styled.div`
   @media only screen and (min-width: 768px) {
     padding: 16px 15px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     border-radius: 50px;
     padding: 20px 19px;
   }
@@ -104,7 +104,7 @@ export const CustomNextButton = styled.div`
   @media only screen and (min-width: 768px) {
     padding: 16px 15px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     border-radius: 50px;
     padding: 20px 19px;
   }
@@ -139,7 +139,7 @@ export const PopularBooksBtn = styled(NavLink)`
     letter-spacing: 0.048px;
     padding: 7.5px 46.5px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     border-radius: 20px;
     font-size: 24px;
     letter-spacing: 0.072px;

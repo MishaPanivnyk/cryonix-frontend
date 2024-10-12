@@ -8,7 +8,7 @@ export const HeroContainer = styled.section`
     padding-top: 30px;
     padding-bottom: 33px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     padding-top: 65px;
     padding-bottom: 65px;
   }
@@ -23,7 +23,7 @@ export const ImageWithOverlay = styled.div`
     @media only screen and (min-width: 768px) {
       height: 307px;
     }
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1440px) {
       height: 393px;
     }
   }
@@ -41,12 +41,12 @@ export const ImageWithOverlay = styled.div`
     @media only screen and (min-width: 768px) {
       bottom: 4px;
     }
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1440px) {
     }
   }
   @media only screen and (min-width: 768px) {
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
   }
 `;
 export const HeroTitle = styled.h1`
@@ -67,7 +67,7 @@ export const HeroTitle = styled.h1`
     top: 32px;
     left: 32px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     max-width: 486px;
     font-size: 43px;
     top: 40px;
@@ -107,7 +107,7 @@ export const HeroBtn = styled(NavLink)`
     padding: 11px 32px;
     letter-spacing: 0.036px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     top: 218px;
     left: 40px;
     padding: 10px 59px;

@@ -7,7 +7,7 @@ export const FooterContainer = styled.footer`
   @media only screen and (min-width: 768px) {
     padding: 45px 0;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
   }
   .icon-logo {
     width: 59px;
@@ -16,7 +16,7 @@ export const FooterContainer = styled.footer`
       width: 91.235px;
       height: 86px;
     }
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1440px) {
     }
   }
 `;
@@ -27,7 +27,7 @@ export const FooterInfoContainer = styled.div`
   @media only screen and (min-width: 768px) {
     gap: 8px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     gap: 10px;
   }
 `;
@@ -57,7 +57,7 @@ export const FooterPhone = styled.a`
     font-size: 16px;
     line-height: 32px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     font-size: 20px;
   }
 `;
@@ -78,7 +78,7 @@ export const FooterEmail = styled.a`
     font-size: 12px;
     line-height: 32px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     font-size: 14px;
   }
 `;
@@ -90,14 +90,14 @@ export const FooterLinksContainer = styled.div`
   @media only screen and (min-width: 768px) {
     margin-bottom: 0px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     gap: 181px;
   }
 `;
 export const FooterNavContainer = styled.div`
   @media only screen and (min-width: 768px) {
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     gap: 0;
   }
 `;
@@ -110,7 +110,7 @@ export const FooterNavLinkWrapper = styled.div`
     grid-template-columns: 1fr 1fr;
     gap: 50px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     row-gap: 50px;
     column-gap: 200px;
   }
@@ -129,7 +129,7 @@ export const FooterInfoTitle = styled.h3`
     line-height: 28px;
     margin-bottom: 30px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     font-size: 18px;
   }
 `;
@@ -143,7 +143,7 @@ export const FooterNavLink = styled(NavLink)`
   @media only screen and (min-width: 768px) {
     font-size: 14px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     font-size: 16px;
   }
   &:hover,
@@ -160,14 +160,14 @@ export const FooterInputContainer = styled.div`
   @media only screen and (min-width: 768px) {
     gap: 0;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
   }
 `;
 export const FooterInputButtonContainer = styled.div`
   position: relative;
   @media only screen and (min-width: 768px) {
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
   }
 `;
 export const FooterInput = styled.input`
@@ -187,7 +187,7 @@ export const FooterInput = styled.input`
     width: 216px;
     padding: 18px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     font-size: 14px;
     width: 270.608px;
     padding: 20px;
@@ -218,7 +218,7 @@ export const FooterInputButton = styled.button`
       width: 14.166px;
       height: 16.673px;
     }
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1440px) {
     }
   }
   @media only screen and (min-width: 768px) {
@@ -226,7 +226,7 @@ export const FooterInputButton = styled.button`
     width: 54px;
     height: 52px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     height: 59px;
   }
 `;
@@ -252,7 +252,7 @@ export const FooterProduct = styled.p`
   @media only screen and (min-width: 768px) {
     font-size: 14px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     font-size: 16px;
   }
 `;
@@ -264,13 +264,13 @@ export const FooterProductSocList = styled.ul`
   margin-bottom: 15px;
   @media only screen and (min-width: 768px) {
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
   }
 `;
 export const FooterProductSocItem = styled.li`
   @media only screen and (min-width: 768px) {
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
   }
 `;
 export const FooterProductSocLink = styled.a`
@@ -283,7 +283,7 @@ export const FooterProductSocLink = styled.a`
       width: 38.191px;
       height: 38.138px;
     }
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1440px) {
       width: 38.191px;
       height: 38.138px;
     }
@@ -294,7 +294,7 @@ export const FooterProductSocLink = styled.a`
 
   @media only screen and (min-width: 768px) {
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
   }
 `;
 export const FooterCopyright = styled.p`
@@ -307,7 +307,7 @@ export const FooterCopyright = styled.p`
   @media only screen and (min-width: 768px) {
     font-size: 14px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     font-size: 16px;
   }
 `;
@@ -329,7 +329,7 @@ export const FooterBootomContainer = styled.div`
       order: 3;
     }
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     padding-top: 55px;
   }
 `;
@@ -340,7 +340,7 @@ export const FooterTopContainer = styled.div`
     justify-content: space-between;
     margin-bottom: 37px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     margin-bottom: 55px;
   }
 `;

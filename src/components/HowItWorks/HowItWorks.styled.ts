@@ -5,7 +5,7 @@ export const HowItWorksContainer = styled.section`
   @media only screen and (min-width: 768px) {
     padding-bottom: 33px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     padding-bottom: 65px;
   }
 `;
@@ -24,7 +24,7 @@ export const HowItWorksTitle = styled.h2`
     letter-spacing: 0.12px;
     margin-bottom: 20px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     margin-bottom: 50px;
     font-size: 60px;
     letter-spacing: 0.18px;
@@ -35,7 +35,7 @@ export const HowItWorksList = styled.ul`
   gap: 15px;
   @media only screen and (min-width: 768px) {
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
   }
 `;
 export const HowItWorksListItem = styled.li`
@@ -58,7 +58,7 @@ export const HowItWorksListItem = styled.li`
       bottom: 0;
       height: 59px;
     }
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1440px) {
       border-radius: 150px 150px 0 0;
       width: 231px;
       height: 115.5px;
@@ -77,7 +77,7 @@ export const HowItWorksListItem = styled.li`
       top: 0;
       height: 59px;
     }
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1440px) {
       border-radius: 150px 150px 0 0;
       width: 231px;
       height: 115.5px;
@@ -97,7 +97,7 @@ export const HowItWorksListItem = styled.li`
       width: 100px;
       height: 50px;
     }
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1440px) {
       border-radius: 150px 150px 0 0;
       width: 190px;
       height: 95px;
@@ -117,7 +117,7 @@ export const HowItWorksListItem = styled.li`
       width: 100px;
       height: 50px;
     }
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1440px) {
       border-radius: 150px 150px 0 0;
       width: 190px;
       height: 95px;
@@ -129,7 +129,7 @@ export const HowItWorksListItem = styled.li`
     @media only screen and (min-width: 768px) {
       max-width: 145px;
     }
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1440px) {
       max-width: 270px;
     }
   }
@@ -139,7 +139,7 @@ export const HowItWorksListItem = styled.li`
     height: 200px;
     padding-left: 17px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     width: 375px;
     height: 380px;
     padding-top: 30px;
@@ -153,7 +153,7 @@ export const HowItWorksListItemLarge = styled(HowItWorksListItem)`
     padding-top: 30px;
     border-radius: 15px 100px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     padding-top: 75px;
     border-radius: 20px 190px;
   }
@@ -163,7 +163,7 @@ export const HowItWorksListItemLargeTop = styled(HowItWorksListItem)`
   @media only screen and (min-width: 768px) {
     padding-top: 50px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     padding-top: 120px;
   }
 `;
@@ -178,7 +178,7 @@ export const HowItWorksListItemNumber = styled.span`
     font-size: 50px;
     letter-spacing: 0.15px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     margin-bottom: 15px;
     font-size: 132px;
     line-height: 90px;
@@ -198,7 +198,7 @@ export const HowItWorksListItemText = styled.p`
     font-size: 20px;
     letter-spacing: 0.06px;
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
     max-width: 248px;
     font-size: 38px;
     line-height: 40px;
