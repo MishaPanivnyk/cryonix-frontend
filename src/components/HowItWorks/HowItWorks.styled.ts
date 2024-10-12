@@ -33,6 +33,7 @@ export const HowItWorksTitle = styled.h2`
 export const HowItWorksList = styled.ul`
   display: flex;
   gap: 15px;
+  justify-content: space-between;
   @media only screen and (min-width: 768px) {
   }
   @media only screen and (min-width: 1440px) {

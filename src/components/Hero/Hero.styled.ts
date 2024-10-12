@@ -15,16 +15,16 @@ export const HeroContainer = styled.section`
 `;
 export const ImageWithOverlay = styled.div`
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
   img {
-    border-radius: 20px;
+    border-radius: 22px;
     width: 100%;
-    height: 171px;
+    /* height: 171px; */
     @media only screen and (min-width: 768px) {
-      height: 307px;
+      /* height: 307px; */
     }
     @media only screen and (min-width: 1440px) {
-      height: 393px;
+      /* height: 393px; */
     }
   }
 
@@ -35,7 +35,7 @@ export const ImageWithOverlay = styled.div`
     top: 0;
     left: 0;
     right: 0;
-    bottom: 5px;
+    bottom: 3px;
     background: linear-gradient(90deg, #121212 4.05%, rgba(0, 0, 0, 0) 99.94%);
     z-index: 1;
     @media only screen and (min-width: 768px) {
