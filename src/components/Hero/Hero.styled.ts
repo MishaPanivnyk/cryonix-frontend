@@ -83,7 +83,7 @@ export const HeroBtn = styled(NavLink)`
   background: #fff;
   color: #222;
   font-family: 'Rubik';
-  font-size: 6px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
