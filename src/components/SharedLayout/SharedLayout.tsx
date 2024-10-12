@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 import { Header } from 'components/Header/Header';
-// import { Footer } from 'components/Footer/Footer';
+import { Footer } from 'components/Footer/Footer';
 import { Loader } from 'components/Loader/Loader';
 import { BackImg } from './SharedLayout.styled';
 interface SharedLayoutProps {
@@ -18,7 +18,7 @@ const SharedLayout: React.FC<SharedLayoutProps> = ({ children }) => {
           {children}
         </Suspense>
       </BackImg>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
