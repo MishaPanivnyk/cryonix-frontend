@@ -121,9 +121,11 @@ export const PopularBooksBtn = styled(NavLink)`
   font-weight: 500;
   line-height: 40px;
   letter-spacing: 0.03px;
-  padding: 7.5px 26.5px;
+  padding: 0 26.5px;
   width: fit-content;
-  display: block;
+  height: 29px;
+  display: flex;
+  align-items: center;
   margin: 0 auto;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
@@ -134,13 +136,14 @@ export const PopularBooksBtn = styled(NavLink)`
   }
   @media only screen and (min-width: 768px) {
     border-radius: 7px;
-
+    height: 49px;
     font-size: 16px;
     letter-spacing: 0.048px;
-    padding: 7.5px 46.5px;
+    padding: 4.5px 46.5px;
   }
   @media only screen and (min-width: 1440px) {
     border-radius: 20px;
+    height: 81px;
     font-size: 24px;
     letter-spacing: 0.072px;
     padding: 20px 78px;

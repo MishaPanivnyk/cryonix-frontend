@@ -155,10 +155,8 @@ export const FooterNavLink = styled(NavLink)`
 export const FooterInputContainer = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 27px;
 
   @media only screen and (min-width: 768px) {
-    gap: 0;
   }
   @media only screen and (min-width: 1440px) {
   }
@@ -205,7 +203,7 @@ export const FooterInputButton = styled.button`
   border-radius: 0px 6px 6px 0px;
   background: #720036;
   position: absolute;
-  bottom: 27px;
+  bottom: 0;
   right: 0;
   width: 35px;
   height: 36px;
@@ -222,7 +220,6 @@ export const FooterInputButton = styled.button`
     }
   }
   @media only screen and (min-width: 768px) {
-    bottom: 0px;
     width: 54px;
     height: 52px;
   }

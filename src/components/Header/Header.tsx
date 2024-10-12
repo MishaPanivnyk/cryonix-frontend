@@ -21,7 +21,7 @@ export const Header: React.FC = () => {
   return (
     <Container>
       <HeaderContainer>
-        <HeaderLogo>Bookix</HeaderLogo>
+        <HeaderLogo to="/">Bookix</HeaderLogo>
         {isDesktop && <Navigation />}
         {isDesktop && (
           <HeaderBtnAuthContainer>
