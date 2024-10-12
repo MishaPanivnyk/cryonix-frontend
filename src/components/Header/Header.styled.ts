@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 
 export const HeaderContainer = styled.header`
   padding: 7px 15px;
@@ -21,7 +22,7 @@ export const HeaderContainer = styled.header`
     padding: 16.5px 15px;
   }
 `;
-export const HeaderLogo = styled.span`
+export const HeaderLogo = styled(NavLink)`
   color: #720036;
   font-family: 'Climate Crisis';
   font-size: 12px;
@@ -29,6 +30,11 @@ export const HeaderLogo = styled.span`
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    transform: scale(1.2);
+    transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
   @media only screen and (min-width: 768px) {
   }
   @media only screen and (min-width: 1440px) {
