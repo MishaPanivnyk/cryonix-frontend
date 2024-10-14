@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
 export const HeroContainer = styled.section`
+  position: relative;
   padding-top: 30px;
   padding-bottom: 20px;
   @media only screen and (min-width: 768px) {
@@ -15,16 +16,14 @@ export const HeroContainer = styled.section`
 `;
 export const ImageWithOverlay = styled.div`
   position: relative;
-  /* display: inline-block; */
   img {
-    border-radius: 22px;
+    border-radius: 33px;
     width: 100%;
-    /* height: 171px; */
+
     @media only screen and (min-width: 768px) {
-      /* height: 307px; */
+      border-radius: 22px;
     }
     @media only screen and (min-width: 1440px) {
-      /* height: 393px; */
     }
   }
 
@@ -51,7 +50,7 @@ export const ImageWithOverlay = styled.div`
 `;
 export const HeroTitle = styled.h1`
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -60,7 +59,7 @@ export const HeroTitle = styled.h1`
   top: 16px;
   left: 20px;
   z-index: 6;
-  max-width: 161px;
+  max-width: 178px;
   @media only screen and (min-width: 768px) {
     max-width: 314px;
     font-size: 28px;
@@ -90,7 +89,7 @@ export const HeroBtn = styled(NavLink)`
   letter-spacing: 0.018px;
   padding: 7.5px 17px;
   position: absolute;
-  top: 78px;
+  top: 82px;
   left: 16px;
   z-index: 6;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);

@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 export const PopularBooksContainer = styled.section`
   padding-bottom: 20px;
+  position: relative;
   @media only screen and (min-width: 768px) {
     padding-bottom: 33px;
   }
@@ -12,7 +13,7 @@ export const PopularBooksContainer = styled.section`
 `;
 export const PopularBooksTitle = styled.h2`
   color: #fff;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -123,7 +124,6 @@ export const PopularBooksBtn = styled(NavLink)`
   letter-spacing: 0.03px;
   padding: 0 26.5px;
   width: fit-content;
-  height: 29px;
   display: flex;
   align-items: center;
   margin: 0 auto;

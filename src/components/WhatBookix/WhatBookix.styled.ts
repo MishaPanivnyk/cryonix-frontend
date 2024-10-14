@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const WhatBookixContainer = styled.section`
   padding-bottom: 20px;
+  position: relative;
   @media only screen and (min-width: 768px) {
     padding-bottom: 33px;
   }
@@ -11,7 +12,7 @@ export const WhatBookixContainer = styled.section`
 `;
 export const WhatBookixTitle = styled.h2`
   color: #fff;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -33,7 +34,7 @@ export const WhatBookixTitle = styled.h2`
 export const WhatBookixText = styled.p`
   color: #fff;
   font-family: 'Inter';
-  font-size: 10px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
