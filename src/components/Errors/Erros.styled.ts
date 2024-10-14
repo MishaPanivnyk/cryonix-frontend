@@ -19,17 +19,20 @@ export const ErrorMessage = styled.h1`
   font-size: 36px;
   font-weight: 400;
   margin-bottom: 25px;
+  @media only screen and (max-width: 768px) {
+    font-size: 25px;
+    margin-bottom: 18px;
+  }
 `;
 export const ErrorTitle = styled.span`
   color: #bcbcbc;
   font-weight: 700;
   opacity: 0.3;
-  font-size: 55vh;
+  font-size: 35vw;
 `;
 export const ErrorImg = styled.img`
   position: absolute;
-  width: 172;
-  height: 332;
+  width: 12vw;
 `;
 export const ErrorBtn = styled.button`
   display: flex;
@@ -54,5 +57,15 @@ export const ErrorBtn = styled.button`
     opacity: 0.8;
     transform: scale(1.05);
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding: 8px 20px;
+    font-size: 13px;
+    img{
+        padding: 5px;
+        margin-right: 2px;
+        width: 8vw;
+    }
   }
 `;
