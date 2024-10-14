@@ -22,9 +22,9 @@ export const ErrorMessage = styled.h1`
 `;
 export const ErrorTitle = styled.span`
   color: #bcbcbc;
-  font-size: 55vh;
   font-weight: 700;
   opacity: 0.3;
+  font-size: 55vh;
 `;
 export const ErrorImg = styled.img`
   position: absolute;
@@ -39,12 +39,20 @@ export const ErrorBtn = styled.button`
   padding: 14px 35px;
   font-size: 24px;
   font-weight: 400;
-  color: #FFF;
+  color: #fff;
   text-transform: capitalize;
   border: none;
   cursor: pointer;
-  img{
+
+  img {
     padding: 10px;
     margin-right: 4px;
+  }
+
+  &:hover,
+  &:focus {
+    opacity: 0.8;
+    transform: scale(1.05);
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 `;

@@ -14,31 +14,25 @@ type ErrorPropsType = {
   errorCode: string;
 };
 
+const errorMessages = {
+  '404': 'You mustn’t be here!',
+  '500': 'Internal Server Error',
+  '403': 'Forbidden',
+  '401': 'Unauthorized',
+  '400': 'Bad Request',
+  '429': 'Too Many Requests',
+  '503': 'Service Unavailable',
+  '502': 'Bad Gateway',
+  '504': 'Gateway Timeout',
+  '415': 'Unsupported Media Type',
+};
+
 const Errors = ({ errorCode }: ErrorPropsType) => {
   return (
     <ErrorsContainer>
       <Container>
         <ErrorStyledContainer>
-          {errorCode === '404' && (
-            <ErrorMessage>You mustn’t be here!</ErrorMessage>
-          )}
-          {errorCode === '500' && (
-            <ErrorMessage>Internal Server Error</ErrorMessage>
-          )}
-          {errorCode === '403' && <ErrorMessage>Forbidden</ErrorMessage>}
-          {errorCode === '401' && <ErrorMessage>Unauthorized</ErrorMessage>}
-          {errorCode === '400' && <ErrorMessage>Bad Request</ErrorMessage>}
-          {errorCode === '429' && (
-            <ErrorMessage>Too Many Requests</ErrorMessage>
-          )}
-          {errorCode === '503' && (
-            <ErrorMessage>Service Unavailable</ErrorMessage>
-          )}
-          {errorCode === '502' && <ErrorMessage>Bad Gateway</ErrorMessage>}
-          {errorCode === '504' && <ErrorMessage>Gateway Timeout</ErrorMessage>}
-          {errorCode === '415' && (
-            <ErrorMessage>Unsupported Media Type</ErrorMessage>
-          )}
+          <ErrorMessage>{errorMessages[errorCode as keyof typeof errorMessages]}</ErrorMessage>
           <ErrorTitle>{errorCode}</ErrorTitle>
           <ErrorImg src={errorSpiritImg} alt="error-spirit" />
           <ErrorBtn>
