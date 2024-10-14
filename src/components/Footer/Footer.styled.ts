@@ -44,7 +44,7 @@ export const FooterLogoLink = styled(NavLink)`
 `;
 export const FooterPhone = styled.a`
   color: #222;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 28px;
@@ -63,7 +63,7 @@ export const FooterPhone = styled.a`
 `;
 export const FooterEmail = styled.a`
   color: #222;
-  font-size: 10px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -117,7 +117,7 @@ export const FooterNavLinkWrapper = styled.div`
 `;
 export const FooterInfoTitle = styled.h3`
   color: #222;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 28px;
@@ -135,7 +135,7 @@ export const FooterInfoTitle = styled.h3`
 `;
 export const FooterNavLink = styled(NavLink)`
   color: #222;
-  font-size: 10px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -170,12 +170,12 @@ export const FooterInputButtonContainer = styled.div`
 `;
 export const FooterInput = styled.input`
   border-radius: 6px;
-  width: 148px;
+  width: 180px;
   border: 1px solid #dedede;
   background: #fbfbfb;
   color: #222;
   padding: 11px;
-  font-size: 10px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -203,7 +203,7 @@ export const FooterInputButton = styled.button`
   border-radius: 0px 6px 6px 0px;
   background: #720036;
   position: absolute;
-  bottom: 0;
+  bottom: 1px;
   right: 0;
   width: 35px;
   height: 36px;
@@ -224,12 +224,13 @@ export const FooterInputButton = styled.button`
     height: 52px;
   }
   @media only screen and (min-width: 1440px) {
+    bottom: 0;
     height: 59px;
   }
 `;
 export const FooterProduct = styled.p`
   color: #222;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -242,7 +243,7 @@ export const FooterProduct = styled.p`
     width: 34.358px;
     height: 32.387px;
     cursor: pointer;
-    &:hover svg {
+    &:hover {
       transform: scale(1.2);
     }
   }
@@ -274,15 +275,13 @@ export const FooterProductSocLink = styled.a`
   cursor: pointer;
   & svg {
     fill: inherit;
-    width: 18.841px;
-    height: 18.815px;
+    width: 30.841px;
+    height: 30.815px;
     @media only screen and (min-width: 768px) {
       width: 38.191px;
       height: 38.138px;
     }
     @media only screen and (min-width: 1440px) {
-      width: 38.191px;
-      height: 38.138px;
     }
   }
   &:hover svg {
@@ -296,7 +295,7 @@ export const FooterProductSocLink = styled.a`
 `;
 export const FooterCopyright = styled.p`
   color: #222;
-  font-size: 10px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
