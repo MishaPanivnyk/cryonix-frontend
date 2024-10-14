@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ErrorsContainer = styled.section`
+export const ErrorContainer = styled.section`
   padding-top: 50px;
   padding-bottom: 30px;
 `;

@@ -3,10 +3,10 @@ import {
   ErrorBtn,
   ErrorImg,
   ErrorMessage,
-  ErrorsContainer,
+  ErrorContainer,
   ErrorStyledContainer,
   ErrorTitle,
-} from './Erros.styled';
+} from './Error.styled';
 import errorSpiritImg from 'img/ErrorSpirit.svg';
 import arrowGoToHome from 'img/GoToHomeBtn.svg';
 
@@ -29,7 +29,7 @@ const errorMessages = {
 
 const Errors = ({ errorCode }: ErrorPropsType) => {
   return (
-    <ErrorsContainer>
+    <ErrorContainer>
       <Container>
         <ErrorStyledContainer>
           <ErrorMessage>{errorMessages[errorCode as keyof typeof errorMessages]}</ErrorMessage>
@@ -41,7 +41,7 @@ const Errors = ({ errorCode }: ErrorPropsType) => {
           </ErrorBtn>
         </ErrorStyledContainer>
       </Container>
-    </ErrorsContainer>
+    </ErrorContainer>
   );
 };
 

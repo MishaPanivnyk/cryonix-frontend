@@ -1,4 +1,4 @@
-import Errors from "components/Errors/Errors";
+import Errors from "components/Error/Error";
 
 const ErrorsPage = () => {
     return ( 
