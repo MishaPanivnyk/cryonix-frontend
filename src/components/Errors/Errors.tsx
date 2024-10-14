@@ -1,5 +1,6 @@
 import { Container } from 'components/Container/Container';
 import {
+  ErrorBtn,
   ErrorImg,
   ErrorMessage,
   ErrorsContainer,
@@ -7,6 +8,7 @@ import {
   ErrorTitle,
 } from './Erros.styled';
 import errorSpiritImg from 'img/ErrorSpirit.svg';
+import arrowGoToHome from 'img/GoToHomeBtn.svg';
 
 type ErrorPropsType = {
   errorCode: string;
@@ -38,7 +40,11 @@ const Errors = ({ errorCode }: ErrorPropsType) => {
             <ErrorMessage>Unsupported Media Type</ErrorMessage>
           )}
           <ErrorTitle>{errorCode}</ErrorTitle>
-          <ErrorImg src={errorSpiritImg} />
+          <ErrorImg src={errorSpiritImg} alt="error-spirit" />
+          <ErrorBtn>
+            <img src={arrowGoToHome} alt="arrow" />
+            Go Home
+          </ErrorBtn>
         </ErrorStyledContainer>
       </Container>
     </ErrorsContainer>
