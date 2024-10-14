@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const HowItWorksContainer = styled.section`
   padding-bottom: 20px;
+  position: relative;
   @media only screen and (min-width: 768px) {
     padding-bottom: 33px;
   }
@@ -11,7 +12,7 @@ export const HowItWorksContainer = styled.section`
 `;
 export const HowItWorksTitle = styled.h2`
   color: #fff;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -43,8 +44,8 @@ export const HowItWorksListItem = styled.li`
   border-radius: 10px;
   background: #fff;
   padding: 10px;
-  width: 90px;
-  height: 90px;
+  width: 110px;
+  height: 110px;
   position: relative;
   .icon-svg {
     width: 49px;
@@ -120,6 +121,7 @@ export const HowItWorksListItem = styled.li`
     }
     @media only screen and (min-width: 1440px) {
       border-radius: 150px 150px 0 0;
+      top: -1px;
       width: 190px;
       height: 95px;
       background-color: #730137;
@@ -188,7 +190,7 @@ export const HowItWorksListItemNumber = styled.span`
 `;
 export const HowItWorksListItemText = styled.p`
   color: #222;
-  font-size: 10px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
