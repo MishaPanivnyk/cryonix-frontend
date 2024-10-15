@@ -1,10 +1,8 @@
 import styled from 'styled-components';
 import { css } from 'styled-components';
 
-
-const maxWidth = 1920;
-
-const adaptivFont = (pcSize : number, mobSize : number) => {
+export const adaptivFont = (pcSize : number, mobSize : number) => {
+  const maxWidth = 1920;
   const addSize = pcSize - mobSize;
   const adjustedMaxWidth = maxWidth - 320;
 
