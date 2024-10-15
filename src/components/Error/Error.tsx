@@ -15,17 +15,18 @@ type ErrorPropsType = {
 };
 
 const errorMessages = {
-  '404': 'You mustn’t be here!',
-  '500': 'Internal Server Error',
-  '403': 'Forbidden',
-  '401': 'Unauthorized',
-  '400': 'Bad Request',
-  '429': 'Too Many Requests',
-  '503': 'Service Unavailable',
-  '502': 'Bad Gateway',
-  '504': 'Gateway Timeout',
-  '415': 'Unsupported Media Type',
+  '404': 'Lost in Space! 🛸',
+  '500': 'Oops! We Broke It 💥',
+  '403': 'Access Denied, Human! 🛑',
+  '401': 'Who Goes There? 🔍',
+  '400': 'Oops! Something Went Wrong 🤦‍♂️',
+  '429': 'Whoa! Slow Down! 🐢',
+  '503': 'We’re on a Coffee Break ☕',
+  '502': 'Bad Gateway! The Internet’s Broken 😱',
+  '504': 'The Server Took a Nap 💤',
+  '415': 'Nice Try, But We Don’t Speak That 📼',
 };
+
 
 const Errors = ({ errorCode }: ErrorPropsType) => {
   return (

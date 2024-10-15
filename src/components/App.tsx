@@ -14,7 +14,7 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/find" element={<FindBookPage />} />
-          <Route path="/error" element={<ErrorPage />} />
+          <Route path="/*" element={<ErrorPage />} />
         </Routes>
       </SharedLayout>
     </>
